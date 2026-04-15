@@ -55,7 +55,7 @@ export default function Popup({ data, onClose }) {
           {data.links && data.links.length > 0 && (
             <div className="border-t border-gray-800 pt-6 mt-4">
               <h3 className="text-gray-400 text-sm font-medium uppercase tracking-wider mb-4 text-center">
-                Connect
+                Links
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
                 {data.links.map((link, idx) => (

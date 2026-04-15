@@ -9,11 +9,9 @@ export default function TileSection({ title, items }) {
 
   return (
     <>
-      <section className="mb-8">
+      <section className="mb-8 mx-4">
         <div className="flex items-center mx-5 mb-2">
           <h3 className="text-white text-xl font-bold mr-3">{title}</h3>
-          <p className="text-white text-sm mr-1">See More</p>
-          <span className="text-white text-xl">→</span>
         </div>
         <div className="flex flex-wrap">
           {items.map((item) => (

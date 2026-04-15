@@ -15,7 +15,7 @@ export default function Hero() {
       {/* Text content */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-center px-4">
         <p className="text-white mb-2">Welcome to</p>
-        <h2 className="text-5xl font-extrabold text-white mb-2">UWI Central HUB</h2>
+        <h2 className="text-5xl font-extrabold text-white mb-2">UWI Central Hub</h2>
         <p className="text-white mb-6">All Things UWI</p>
         <Link to="/add">
           <button className="bg-orange-500 text-black font-bold py-2 px-6 rounded-md hover:bg-orange-600 transition">

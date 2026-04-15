@@ -32,7 +32,7 @@ function App() {
   }, []);
 
   // Filter data for each section (same as before)
-  const recommended = allItems.slice(0, 5);
+  const recommended = allItems.slice(0, 7);
   const clubs = allItems.filter(item => item.category === 'clubs');
   const vendors = allItems.filter(item => item.category === 'vendor');
   const resources = allItems.filter(item => item.category === 'resources');

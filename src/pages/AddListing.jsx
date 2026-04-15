@@ -75,7 +75,7 @@ export default function AddListing() {
   return (
     <div className="min-h-screen bg-[#00002B] text-white p-6">
       <div className="max-w-2xl mx-auto">
-        <h1 className="text-3xl font-bold text-orange-500 mb-6">Add New Listing</h1>
+        <h1 className="text-3xl font-bold text-orange-500 mb-6">Add Listing</h1>
 
         {error && (
           <div className="bg-red-500/20 border border-red-500 text-red-300 p-3 rounded mb-4">
